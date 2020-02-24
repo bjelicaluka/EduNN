@@ -4,7 +4,7 @@ We wanted to implement python library that supports working with generic
 Artifitial Neural Network (ANN). The point was not to use any framework, but
 to dig into the math that is behind the modern Artifitial Intelligence.
 
-## Implementing ANN Model and training it
+## Getting started
 
 ```python
 model = Model([[4], [2, "relu"], [3, "softmax"]], loss_function='cross_entropy', learning_rate=0.001)
@@ -25,3 +25,7 @@ model.train("genetic_algorithm", np.array(training_data), np.array(targets), epo
 ```
 
 After choosing the algorithm for training, required parameters are training data and targeting data. User needs to provide those two data sets, and then the net can be trained. Other parameters are provided by default, but user can change them and track the performance of it's net.
+
+Losses
+
+Activations
