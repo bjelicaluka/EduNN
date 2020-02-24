@@ -22,19 +22,28 @@ model.train("genetic_algorithm", np.array(training_data), np.array(targets), epo
 
 After choosing the algorithm for training, required parameters are training data and targeting data. User needs to provide those two data sets, and then the net can be trained. Other parameters are provided by default, but user can change them and track the performance of it's net.
 
-List of implemented **loss functions**:
+### List of implemented loss functions:
 
-*Mean Squared Error
-*Mean Asolute Error
-*Cross Entropy
-*Binary Cross Entropy
+-Mean Squared Error
 
-List of implemented **activation functions**:
+-Mean Asolute Error
 
-*Sigmoid
-*ReLu
-*Sinusoid
-*SoftMax
-*SoftPlus
-*Gaussian
-*Tahn
+-Cross Entropy
+
+-Binary Cross Entropy
+
+### List of implemented activation functions:
+
+-Sigmoid
+
+-ReLu
+
+-Sinusoid
+
+-SoftMax
+
+-SoftPlus
+
+-Gaussian
+
+-Tahn
