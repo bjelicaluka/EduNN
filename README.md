@@ -2,6 +2,9 @@
 
 This project is an open-source custom deep learning framework - EduNN, inspired by Keras and PyTorch. In general, the goal was to implement an educational platform, using which anybody, mostly students, can learn and experiment with neural networks through the simple API. The complete framework code can be found here.
 
+We hope that you will like our approach and that you will try out our framework. Any feedback is welcomed.
+
+
 ## Getting started
 
 ```python
